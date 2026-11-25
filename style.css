@@ -1,0 +1,53 @@
+.All{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+    flex-direction: column;
+}
+.in{
+    padding: 9px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: rgb(195, 206, 216);
+}
+.log{
+    width: 100%;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: rgb(59, 77, 243);
+    color: white;
+    border: 0PX;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.new{
+    padding: 2px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    border-color: rgb(59, 77, 243);
+    color: rgb(59, 77, 243);
+    border: 1px solid;
+}
+.logi{
+    display: flex;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    min-height: 100dvh;
+    width: 100%;
+}
